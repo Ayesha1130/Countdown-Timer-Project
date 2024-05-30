@@ -32,7 +32,7 @@ function startTime(val) {
         const timeDiff = differenceInSeconds(intervalTime, currentTime);
         if (timeDiff <= 0) {
             console.log(chalk.yellow.bold("Timer Has expired"));
-            console.log(chalk.green("*".repeat(27)));
+            console.log(chalk.green("*".repeat(19)));
             process.exit();
         }
         const min = Math.floor((timeDiff % (3600 * 24)) / 3600);

@@ -7,7 +7,6 @@ console.log(chalk.green("*".repeat(27)));
 console.log(chalk.magenta.bold("Welcome to Countdown Timer "));
 console.log(chalk.green("*".repeat(27)));
 
-
 const res = await inquirer.prompt([
     {
         name: "userInput",
